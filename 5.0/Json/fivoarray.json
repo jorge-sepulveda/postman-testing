@@ -1,0 +1,1001 @@
+[{
+        "StreetAddress": "9301 PINECROFT DR",
+        "City": "THE WOODLANDS",
+        "State": "TX",
+        "Zip": 77380,
+        "latitude": 30.1739961,
+        "longitude": -95.4570601,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "27720 A TOMBALL PKY",
+        "City": "TOMBALL",
+        "State": "TX",
+        "Zip": 77375,
+        "latitude": 30.0773073878371,
+        "longitude": -95.6284181385549,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "1405 VICTORIA STA DR",
+        "City": "VICTORIA",
+        "State": "TX",
+        "Zip": 77901,
+        "latitude": 28.8342948750565,
+        "longitude": -96.9909922664563,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "301 EAST AIRLINE ROAD",
+        "City": "VICTORIA",
+        "State": "TX",
+        "Zip": 77901,
+        "latitude": 28.81967,
+        "longitude": -97.00267,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "910 UTAH",
+        "City": "WESLACO",
+        "State": "TX",
+        "Zip": 78596,
+        "latitude": 26.18761812672052,
+        "longitude": -97.9907961484177,
+        "featureMatchingGeographyType": "ZCTA",
+        "gisCoordinateQualityType": "AddressZIPCentroid"
+    },
+    {
+        "StreetAddress": "941 SOUTH WESTGATE WAY",
+        "City": "WYLIE",
+        "State": "TX",
+        "Zip": 75098,
+        "latitude": 33.00592,
+        "longitude": -96.55405,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1301 BARBARA  JORDAN BLVD",
+        "City": "AUSTIN",
+        "State": "TX",
+        "Zip": 78723,
+        "latitude": 30.4418478,
+        "longitude": -97.6600948,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "4731 N.E. STALLINGS",
+        "City": "NACOGDOCHES",
+        "State": "TX",
+        "Zip": 75965,
+        "latitude": 31.6512872,
+        "longitude": -94.6512575,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "200 MEDICAL CENTER COURT SUITE 200",
+        "City": "BAY CITY",
+        "State": "TX",
+        "Zip": 77414,
+        "latitude": 28.9797957,
+        "longitude": -95.9938588,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1105 AVE H",
+        "City": "BAY CITY",
+        "State": "TX",
+        "Zip": 77414,
+        "latitude": 28.9931055,
+        "longitude": -95.9677252,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1085 S. 23RD STREET",
+        "City": "BEAUMONT",
+        "State": "TX",
+        "Zip": 77707,
+        "latitude": 30.0916283,
+        "longitude": -94.1439302,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "930 MARVIN HANCOCK DRIVE",
+        "City": "JASPER",
+        "State": "TX",
+        "Zip": 75951,
+        "latitude": 30.9101638094843,
+        "longitude": -94.007508093446,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "405 THIS WAY STREET",
+        "City": "LAKE JACKSON",
+        "State": "TX",
+        "Zip": 77566,
+        "latitude": 29.0388892,
+        "longitude": -95.4542703,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "6518 MEMORIAL DRIVE",
+        "City": "TEXAS CITY",
+        "State": "TX",
+        "Zip": 77591,
+        "latitude": 29.39257,
+        "longitude": -94.985,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "712  W. BLUFF ST.",
+        "City": "WOODVILLE",
+        "State": "TX",
+        "Zip": 75979,
+        "latitude": 30.77535,
+        "longitude": -94.42336,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1915 S COULTER STREET SUITE B",
+        "City": "AMARILLO",
+        "State": "TX",
+        "Zip": 79106,
+        "latitude": 35.1929811,
+        "longitude": -101.9201354,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "203 W RANDOL MILL RD",
+        "City": "ARLINGTON",
+        "State": "TX",
+        "Zip": 76011,
+        "latitude": 32.75076,
+        "longitude": -97.10841,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "605 NORTHWEST PARKWAY",
+        "City": "AZLE",
+        "State": "TX",
+        "Zip": 76020,
+        "latitude": 32.89988,
+        "longitude": -97.54714,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1595 SOUTH MAIN SUITE 107",
+        "City": "BOERNE",
+        "State": "TX",
+        "Zip": 78006,
+        "latitude": 29.76867,
+        "longitude": -98.71821,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "12201 BEAR PLAZA",
+        "City": "BURLESON",
+        "State": "TX",
+        "Zip": 76028,
+        "latitude": 32.5798081,
+        "longitude": -97.3138526,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "400 EAST STATE HIGHWAY 243 SUITE 14",
+        "City": "CANTON",
+        "State": "TX",
+        "Zip": 75103,
+        "latitude": 32.5448761127497,
+        "longitude": -95.8604099130202,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "1206 N. HENDERSON",
+        "City": "CLEBURNE",
+        "State": "TX",
+        "Zip": 76033,
+        "latitude": 32.34252,
+        "longitude": -97.40244,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "3420 AMY STRET",
+        "City": "EAGLE PASS",
+        "State": "TX",
+        "Zip": 78852,
+        "latitude": 28.7096522,
+        "longitude": -100.4580172,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "206 CONQUEST BLVD",
+        "City": "EDINBURG",
+        "State": "TX",
+        "Zip": 78539,
+        "latitude": 26.2567674,
+        "longitude": -98.1721328,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "400 E. EDINBURG BLVD",
+        "City": "ELSA",
+        "State": "TX",
+        "Zip": 78543,
+        "latitude": 26.2931515,
+        "longitude": -97.9889,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "501 COLLEGE AVENUE",
+        "City": "FORT WORTH",
+        "State": "TX",
+        "Zip": 76104,
+        "latitude": 32.7396443274751,
+        "longitude": -97.3344708543933,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "5127 OLD GRANBURY ROAD",
+        "City": "FORT WORTH",
+        "State": "TX",
+        "Zip": 76133,
+        "latitude": 32.6744358772224,
+        "longitude": -97.3813692066001,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "1978 EPHRIHAM AVENUE",
+        "City": "FORT WORTH",
+        "State": "TX",
+        "Zip": 76164,
+        "latitude": 32.7889114847507,
+        "longitude": -97.3788535540451,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "4201 E BERRY",
+        "City": "FORT WORTH",
+        "State": "TX",
+        "Zip": 76105,
+        "latitude": 32.7139584265758,
+        "longitude": -97.2621377110117,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "501 COLLEGE AVENUE",
+        "City": "FORT WORTH",
+        "State": "TX",
+        "Zip": 76104,
+        "latitude": 32.7396443274751,
+        "longitude": -97.3344708543933,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "6450 BRENTWOOD STAIR RD",
+        "City": "FORT WORTH",
+        "State": "TX",
+        "Zip": 76112,
+        "latitude": 32.7571834,
+        "longitude": -97.2195549,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "3324 FM 528",
+        "City": "FRIENDSWOOD",
+        "State": "TX",
+        "Zip": 77546,
+        "latitude": 29.5231557,
+        "longitude": -95.1637226,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "3301 E HIGHWAY 377 SUITE 170",
+        "City": "GRANBURY",
+        "State": "TX",
+        "Zip": 76049,
+        "latitude": 32.4519948940472,
+        "longitude": -97.7357576860643,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "1006 NORTH CARRIER PARKWAY",
+        "City": "GRAND PRAIRIE",
+        "State": "TX",
+        "Zip": 75050,
+        "latitude": 32.7556999,
+        "longitude": -97.0176346,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "4302 SESAME DRIVE",
+        "City": "HARLINGEN",
+        "State": "TX",
+        "Zip": 78550,
+        "latitude": 26.1643620733298,
+        "longitude": -97.6802819261292,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "3202 AVE G",
+        "City": "HONDO",
+        "State": "TX",
+        "Zip": 78861,
+        "latitude": 29.3348881,
+        "longitude": -99.1358303,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1313  LA CONCHA",
+        "City": "HOUSTON",
+        "State": "TX",
+        "Zip": 77054,
+        "latitude": 29.6911571,
+        "longitude": -95.4107234,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "6120 SCOTT STREET SUITE F",
+        "City": "HOUSTON",
+        "State": "TX",
+        "Zip": 77021,
+        "latitude": 29.6999423,
+        "longitude": -95.35991,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "7243 BISSONNET STREET  SUITE A",
+        "City": "HOUSTON",
+        "State": "TX",
+        "Zip": 77074,
+        "latitude": 29.6857220362438,
+        "longitude": -95.5106123140955,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "24006 HIGHWAY 59 NORTH",
+        "City": "KINGWOOD",
+        "State": "TX",
+        "Zip": 77339,
+        "latitude": 30.067385738189,
+        "longitude": -95.2471929141103,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "6801 MCPHERSON ROAD",
+        "City": "LAREDO",
+        "State": "TX",
+        "Zip": 78041,
+        "latitude": 27.5653462726711,
+        "longitude": -99.4724378405616,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "4602 BENCHA ROAD",
+        "City": "LAREDO",
+        "State": "TX",
+        "Zip": 78041,
+        "latitude": 27.50311,
+        "longitude": -99.44651,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "3801 21ST STREET",
+        "City": "LUBBOCK",
+        "State": "TX",
+        "Zip": 79410,
+        "latitude": 33.5758361,
+        "longitude": -101.8967542,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "14832 MAIN STREET",
+        "City": "LYTLE",
+        "State": "TX",
+        "Zip": 78052,
+        "latitude": 29.2360505,
+        "longitude": -98.7889384,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1800 HWY 157 N.",
+        "City": "MANSFIELD",
+        "State": "TX",
+        "Zip": 76063,
+        "latitude": 32.5995035148665,
+        "longitude": -97.1456266443717,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "1301 EAST RIDGE ROAD",
+        "City": "MCALLEN",
+        "State": "TX",
+        "Zip": 78503,
+        "latitude": 26.184332,
+        "longitude": -98.209091,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "2000 S. CYNTHIA STREET",
+        "City": "MCALLEN",
+        "State": "TX",
+        "Zip": 78503,
+        "latitude": 26.182852,
+        "longitude": -98.220788,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "2611 HIGHWAY 180 WEST",
+        "City": "MINERAL WELLS",
+        "State": "TX",
+        "Zip": 76067,
+        "latitude": 32.8035154271877,
+        "longitude": -98.1460543205158,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "1300 SOUTH BRYAN ROAD",
+        "City": "MISSION",
+        "State": "TX",
+        "Zip": 78572,
+        "latitude": 26.1907057200191,
+        "longitude": -98.3141888396559,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "6455 HILLTOP DR  SUITE 112",
+        "City": "NORTH RICHLAND HILLS",
+        "State": "TX",
+        "Zip": 76180,
+        "latitude": 32.8456378,
+        "longitude": -97.2395547,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1320 WEST OAKLAWN SUITE G & H",
+        "City": "PLEASANTON",
+        "State": "TX",
+        "Zip": 78064,
+        "latitude": 28.9490566,
+        "longitude": -98.5005376,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "2787 PHARMACY RD",
+        "City": "RIO GRANDE CITY",
+        "State": "TX",
+        "Zip": 78582,
+        "latitude": 26.3751745788342,
+        "longitude": -98.860279886976,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "1515 PLEASANTON ROAD",
+        "City": "SAN ANTONIO",
+        "State": "TX",
+        "Zip": 78221,
+        "latitude": 29.3676387,
+        "longitude": -98.5046672,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "2011 E. HOUSTON SUITE 102D",
+        "City": "SAN ANTONIO",
+        "State": "TX",
+        "Zip": 78202,
+        "latitude": 29.4254721,
+        "longitude": -98.4652047,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "7171  HWY 90 WEST",
+        "City": "SAN ANTONIO",
+        "State": "TX",
+        "Zip": 78227,
+        "latitude": 29.4021450434243,
+        "longitude": -98.631828658146,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "7180 BANDERA ROAD",
+        "City": "SAN ANTONIO",
+        "State": "TX",
+        "Zip": 78238,
+        "latitude": 29.5040916,
+        "longitude": -98.627668,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "343 WEST HOUSTON STREET",
+        "City": "SAN ANTONIO",
+        "State": "TX",
+        "Zip": 78205,
+        "latitude": 29.4266849,
+        "longitude": -98.4972861,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "11212 STATE HWY 151",
+        "City": "SAN ANTONIO",
+        "State": "TX",
+        "Zip": 78251,
+        "latitude": 29.4677215736168,
+        "longitude": -98.6947762195782,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "295 NORTH SAM HOUSTON",
+        "City": "SAN BENITO",
+        "State": "TX",
+        "Zip": 78586,
+        "latitude": 26.1334541436607,
+        "longitude": -97.6308783182065,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "5000 BAPTIST HEALTH DR",
+        "City": "SHERTZ",
+        "State": "TX",
+        "Zip": 78154,
+        "latitude": 29.5989232,
+        "longitude": -98.2741516,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "504 SANTE FE",
+        "City": "WEATHERFORD",
+        "State": "TX",
+        "Zip": 76086,
+        "latitude": 32.8853,
+        "longitude": -97.9095,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1005 S. AIRPORT DRIVE",
+        "City": "WESLACO",
+        "State": "TX",
+        "Zip": 78596,
+        "latitude": 26.1500469,
+        "longitude": -97.9738528,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1704 SOUTH CHERRY LANE SUITE 200",
+        "City": "WHITE SETTLEMENT",
+        "State": "TX",
+        "Zip": 76108,
+        "latitude": 32.7408778,
+        "longitude": -97.4527763,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "100 WEST HUNTINGTON",
+        "City": "BEEVILLE",
+        "State": "TX",
+        "Zip": 78102,
+        "latitude": 28.4135558,
+        "longitude": -97.7544432,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1612 NORTH TEXAS",
+        "City": "BRYAN",
+        "State": "TX",
+        "Zip": 77803,
+        "latitude": 30.6888025,
+        "longitude": -96.3732149,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "7502 SOUTH PADRE ISLAND DRIVE",
+        "City": "CORPUS CHRISTI",
+        "State": "TX",
+        "Zip": 78412,
+        "latitude": 27.69145,
+        "longitude": -97.33498,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "10737 GATEWAY W STE 100",
+        "City": "EL PASO",
+        "State": "TX",
+        "Zip": 79935,
+        "latitude": 31.75068,
+        "longitude": -106.33978,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "3100 N. STANTON",
+        "City": "EL PASO",
+        "State": "TX",
+        "Zip": 79902,
+        "latitude": 31.78108,
+        "longitude": -106.503,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "802 GUADALUPE ST",
+        "City": "LAREDO",
+        "State": "TX",
+        "Zip": 78040,
+        "latitude": 27.50662,
+        "longitude": -99.48854,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "4151 JAIME ZAPATA MEMORIAL HWY",
+        "City": "LAREDO",
+        "State": "TX",
+        "Zip": 78046,
+        "latitude": 27.49388,
+        "longitude": -99.4518,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "5501 SPRINGFIELD AVENUE",
+        "City": "LAREDO",
+        "State": "TX",
+        "Zip": 78041,
+        "latitude": 27.54537,
+        "longitude": -99.49133,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "10651 NORTH LOOP",
+        "City": "SOCORRO",
+        "State": "TX",
+        "Zip": 79927,
+        "latitude": 31.68682092247612,
+        "longitude": -106.17562278351826,
+        "featureMatchingGeographyType": "ZCTA",
+        "gisCoordinateQualityType": "AddressZIPCentroid"
+    },
+    {
+        "StreetAddress": "1138 S. BOWEN RD",
+        "City": "ARLINGTON",
+        "State": "TX",
+        "Zip": 76013,
+        "latitude": 32.7242101,
+        "longitude": -97.1494791,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1600 CENTRAL DR",
+        "City": "BEDFORD",
+        "State": "TX",
+        "Zip": 76022,
+        "latitude": 32.83208,
+        "longitude": -97.13279,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "110 SOUTHPARK DRIVE",
+        "City": "BROWNWOOD",
+        "State": "TX",
+        "Zip": 76801,
+        "latitude": 31.750101889727794,
+        "longitude": -99.03639956536037,
+        "featureMatchingGeographyType": "ZCTA",
+        "gisCoordinateQualityType": "AddressZIPCentroid"
+    },
+    {
+        "StreetAddress": "3501 EXECUTIVE DR",
+        "City": "SAN ANGELO",
+        "State": "TX",
+        "Zip": 76904,
+        "latitude": 31.4177625,
+        "longitude": -100.4682264,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "2755 LIBERTY",
+        "City": "BEAUMONT",
+        "State": "TX",
+        "Zip": 77702,
+        "latitude": 30.0835626,
+        "longitude": -94.1307421,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1301 S MARTIN LUTHER KING DR",
+        "City": "ORANGE",
+        "State": "TX",
+        "Zip": 77630,
+        "latitude": 30.1027770669213,
+        "longitude": -93.78059117609,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "6411 FANNIN ST",
+        "City": "HOUSTON",
+        "State": "TX",
+        "Zip": 77030,
+        "latitude": 29.7139153895711,
+        "longitude": -95.3974315282389,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "1032 SANDY LANE",
+        "City": "FORT WORTH",
+        "State": "TX",
+        "Zip": 76120,
+        "latitude": 32.76434,
+        "longitude": -97.19695,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "5601 LOCKE AVENUE",
+        "City": "FORT WORTH",
+        "State": "TX",
+        "Zip": 76107,
+        "latitude": 32.73162,
+        "longitude": -97.4064,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "3965 PHELAN BLVD",
+        "City": "BEAUMONT",
+        "State": "TX",
+        "Zip": 77707,
+        "latitude": 30.0834329,
+        "longitude": -94.1453235,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "3050 LIBERTY ST.",
+        "City": "BEAUMONT",
+        "State": "TX",
+        "Zip": 77702,
+        "latitude": 30.0843831800791,
+        "longitude": -94.1339764250596,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "4240 INTERNATIONAL PARKWAY",
+        "City": "CARROLLTON",
+        "State": "TX",
+        "Zip": 75007,
+        "latitude": 33.0241579,
+        "longitude": -96.8474785,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "6200 LBJ FREEWAY SUITE 100",
+        "City": "DALLAS",
+        "State": "TX",
+        "Zip": 75240,
+        "latitude": 32.9236588,
+        "longitude": -96.7992256,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "4309 MESA DR",
+        "City": "DENTON",
+        "State": "TX",
+        "Zip": 76207,
+        "latitude": 33.2349715,
+        "longitude": -97.1780259,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "251 UNIVERSITY DR",
+        "City": "FORT WORTH",
+        "State": "TX",
+        "Zip": 76107,
+        "latitude": 32.7563305,
+        "longitude": -97.3605213,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "10850 FRISCO ST SUITE 300",
+        "City": "FRISCO",
+        "State": "TX",
+        "Zip": 75034,
+        "latitude": 33.1695458699647,
+        "longitude": -96.8333905878171,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "1600 WATERS RIDGE DRIVE",
+        "City": "LEWISVILLE",
+        "State": "TX",
+        "Zip": 75057,
+        "latitude": 33.0231601,
+        "longitude": -96.9755527,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "6331 BOULEVARD 26",
+        "City": "NORTH RICHLAND HILLS",
+        "State": "TX",
+        "Zip": 76180,
+        "latitude": 32.8121544,
+        "longitude": -97.2460082,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "280 STRICKLAND DRIVE",
+        "City": "ORANGE",
+        "State": "TX",
+        "Zip": 77630,
+        "latitude": 30.0969649020265,
+        "longitude": -93.7653146659868,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "4112 W SPRING CREEK PARKWAY",
+        "City": "PLANO",
+        "State": "TX",
+        "Zip": 75024,
+        "latitude": 33.054988,
+        "longitude": -96.7730621,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "3730 DRYDEN RD",
+        "City": "PORT ARTHUR",
+        "State": "TX",
+        "Zip": 77642,
+        "latitude": 29.9091528775197,
+        "longitude": -93.9214280299716,
+        "featureMatchingGeographyType": "StreetSegment",
+        "gisCoordinateQualityType": "StreetSegmentInterpolation"
+    },
+    {
+        "StreetAddress": "8797 9TH AVENUE",
+        "City": "PORT ARTHUR",
+        "State": "TX",
+        "Zip": 77642,
+        "latitude": 29.9527920161783,
+        "longitude": -93.9856728567797,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "510  S. SW LOOP 323",
+        "City": "TYLER",
+        "State": "TX",
+        "Zip": 75702,
+        "latitude": 32.3640812808479,
+        "longitude": -95.31386058595645,
+        "featureMatchingGeographyType": "ZCTA",
+        "gisCoordinateQualityType": "AddressZIPCentroid"
+    },
+    {
+        "StreetAddress": "2895 SHILOH ROAD",
+        "City": "TYLER",
+        "State": "TX",
+        "Zip": 75703,
+        "latitude": 32.29449,
+        "longitude": -95.26448,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "7647 SOUTH FREEWAY",
+        "City": "HOUSTON",
+        "State": "TX",
+        "Zip": 77021,
+        "latitude": 29.6831866,
+        "longitude": -95.3783853,
+        "featureMatchingGeographyType": "Parcel",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "8800 BISSONNET",
+        "City": "HOUSTON",
+        "State": "TX",
+        "Zip": 77074,
+        "latitude": 29.6770898,
+        "longitude": -95.531123,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "7112 STUEBNER AIRLINE DRIVE",
+        "City": "HOUSTON",
+        "State": "TX",
+        "Zip": 77091,
+        "latitude": 29.8644515,
+        "longitude": -95.409166,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    },
+    {
+        "StreetAddress": "1201 ELLIS AVE",
+        "City": "LUFKIN",
+        "State": "TX",
+        "Zip": 75901,
+        "latitude": 31.33476,
+        "longitude": -94.74388,
+        "featureMatchingGeographyType": "BuildingCentroid",
+        "gisCoordinateQualityType": "AddressPoint"
+    }
+]

@@ -1,0 +1,603 @@
+{
+  "inputData": [{
+      "StreetAddress": "9301 PINECROFT DR",
+      "City": "THE WOODLANDS",
+      "State": "TX",
+      "Zip": 77380
+    },
+    {
+      "StreetAddress": "27720 A TOMBALL PKY",
+      "City": "TOMBALL",
+      "State": "TX",
+      "Zip": 77375
+    },
+    {
+      "StreetAddress": "1405 VICTORIA STA DR",
+      "City": "VICTORIA",
+      "State": "TX",
+      "Zip": 77901
+    },
+    {
+      "StreetAddress": "301 EAST AIRLINE ROAD",
+      "City": "VICTORIA",
+      "State": "TX",
+      "Zip": 77901
+    },
+    {
+      "StreetAddress": "910 UTAH",
+      "City": "WESLACO",
+      "State": "TX",
+      "Zip": 78596
+    },
+    {
+      "StreetAddress": "941 SOUTH WESTGATE WAY",
+      "City": "WYLIE",
+      "State": "TX",
+      "Zip": 75098
+    },
+    {
+      "StreetAddress": "1301 BARBARA  JORDAN BLVD",
+      "City": "AUSTIN",
+      "State": "TX",
+      "Zip": 78723
+    },
+    {
+      "StreetAddress": "4731 N.E. STALLINGS",
+      "City": "NACOGDOCHES",
+      "State": "TX",
+      "Zip": 75965
+    },
+    {
+      "StreetAddress": "200 MEDICAL CENTER COURT SUITE 200",
+      "City": "BAY CITY",
+      "State": "TX",
+      "Zip": 77414
+    },
+    {
+      "StreetAddress": "1105 AVE H",
+      "City": "BAY CITY",
+      "State": "TX",
+      "Zip": 77414
+    },
+    {
+      "StreetAddress": "1085 S. 23RD STREET",
+      "City": "BEAUMONT",
+      "State": "TX",
+      "Zip": 77707
+    },
+    {
+      "StreetAddress": "930 MARVIN HANCOCK DRIVE",
+      "City": "JASPER",
+      "State": "TX",
+      "Zip": 75951
+    },
+    {
+      "StreetAddress": "405 THIS WAY STREET",
+      "City": "LAKE JACKSON",
+      "State": "TX",
+      "Zip": 77566
+    },
+    {
+      "StreetAddress": "6518 MEMORIAL DRIVE",
+      "City": "TEXAS CITY",
+      "State": "TX",
+      "Zip": 77591
+    },
+    {
+      "StreetAddress": "712  W. BLUFF ST.",
+      "City": "WOODVILLE",
+      "State": "TX",
+      "Zip": 75979
+    },
+    {
+      "StreetAddress": "1915 S COULTER STREET SUITE B",
+      "City": "AMARILLO",
+      "State": "TX",
+      "Zip": 79106
+    },
+    {
+      "StreetAddress": "203 W RANDOL MILL RD",
+      "City": "ARLINGTON",
+      "State": "TX",
+      "Zip": 76011
+    },
+    {
+      "StreetAddress": "605 NORTHWEST PARKWAY",
+      "City": "AZLE",
+      "State": "TX",
+      "Zip": 76020
+    },
+    {
+      "StreetAddress": "1595 SOUTH MAIN SUITE 107",
+      "City": "BOERNE",
+      "State": "TX",
+      "Zip": 78006
+    },
+    {
+      "StreetAddress": "12201 BEAR PLAZA",
+      "City": "BURLESON",
+      "State": "TX",
+      "Zip": 76028
+    },
+    {
+      "StreetAddress": "400 EAST STATE HIGHWAY 243 SUITE 14",
+      "City": "CANTON",
+      "State": "TX",
+      "Zip": 75103
+    },
+    {
+      "StreetAddress": "1206 N. HENDERSON",
+      "City": "CLEBURNE",
+      "State": "TX",
+      "Zip": 76033
+    },
+    {
+      "StreetAddress": "3420 AMY STRET",
+      "City": "EAGLE PASS",
+      "State": "TX",
+      "Zip": 78852
+    },
+    {
+      "StreetAddress": "206 CONQUEST BLVD",
+      "City": "EDINBURG",
+      "State": "TX",
+      "Zip": 78539
+    },
+    {
+      "StreetAddress": "400 E. EDINBURG BLVD",
+      "City": "ELSA",
+      "State": "TX",
+      "Zip": 78543
+    },
+    {
+      "StreetAddress": "501 COLLEGE AVENUE",
+      "City": "FORT WORTH",
+      "State": "TX",
+      "Zip": 76104
+    },
+    {
+      "StreetAddress": "5127 OLD GRANBURY ROAD",
+      "City": "FORT WORTH",
+      "State": "TX",
+      "Zip": 76133
+    },
+    {
+      "StreetAddress": "1978 EPHRIHAM AVENUE",
+      "City": "FORT WORTH",
+      "State": "TX",
+      "Zip": 76164
+    },
+    {
+      "StreetAddress": "4201 E BERRY",
+      "City": "FORT WORTH",
+      "State": "TX",
+      "Zip": 76105
+    },
+    {
+      "StreetAddress": "501 COLLEGE AVENUE",
+      "City": "FORT WORTH",
+      "State": "TX",
+      "Zip": 76104
+    },
+    {
+      "StreetAddress": "6450 BRENTWOOD STAIR RD",
+      "City": "FORT WORTH",
+      "State": "TX",
+      "Zip": 76112
+    },
+    {
+      "StreetAddress": "3324 FM 528",
+      "City": "FRIENDSWOOD",
+      "State": "TX",
+      "Zip": 77546
+    },
+    {
+      "StreetAddress": "3301 E HIGHWAY 377 SUITE 170",
+      "City": "GRANBURY",
+      "State": "TX",
+      "Zip": 76049
+    },
+    {
+      "StreetAddress": "1006 NORTH CARRIER PARKWAY",
+      "City": "GRAND PRAIRIE",
+      "State": "TX",
+      "Zip": 75050
+    },
+    {
+      "StreetAddress": "4302 SESAME DRIVE",
+      "City": "HARLINGEN",
+      "State": "TX",
+      "Zip": 78550
+    },
+    {
+      "StreetAddress": "3202 AVE G",
+      "City": "HONDO",
+      "State": "TX",
+      "Zip": 78861
+    },
+    {
+      "StreetAddress": "1313  LA CONCHA",
+      "City": "HOUSTON",
+      "State": "TX",
+      "Zip": 77054
+    },
+    {
+      "StreetAddress": "6120 SCOTT STREET SUITE F",
+      "City": "HOUSTON",
+      "State": "TX",
+      "Zip": 77021
+    },
+    {
+      "StreetAddress": "7243 BISSONNET STREET  SUITE A",
+      "City": "HOUSTON",
+      "State": "TX",
+      "Zip": 77074
+    },
+    {
+      "StreetAddress": "24006 HIGHWAY 59 NORTH",
+      "City": "KINGWOOD",
+      "State": "TX",
+      "Zip": 77339
+    },
+    {
+      "StreetAddress": "6801 MCPHERSON ROAD",
+      "City": "LAREDO",
+      "State": "TX",
+      "Zip": 78041
+    },
+    {
+      "StreetAddress": "4602 BENCHA ROAD",
+      "City": "LAREDO",
+      "State": "TX",
+      "Zip": 78041
+    },
+    {
+      "StreetAddress": "3801 21ST STREET",
+      "City": "LUBBOCK",
+      "State": "TX",
+      "Zip": 79410
+    },
+    {
+      "StreetAddress": "14832 MAIN STREET",
+      "City": "LYTLE",
+      "State": "TX",
+      "Zip": 78052
+    },
+    {
+      "StreetAddress": "1800 HWY 157 N.",
+      "City": "MANSFIELD",
+      "State": "TX",
+      "Zip": 76063
+    },
+    {
+      "StreetAddress": "1301 EAST RIDGE ROAD",
+      "City": "MCALLEN",
+      "State": "TX",
+      "Zip": 78503
+    },
+    {
+      "StreetAddress": "2000 S. CYNTHIA STREET",
+      "City": "MCALLEN",
+      "State": "TX",
+      "Zip": 78503
+    },
+    {
+      "StreetAddress": "2611 HIGHWAY 180 WEST",
+      "City": "MINERAL WELLS",
+      "State": "TX",
+      "Zip": 76067
+    },
+    {
+      "StreetAddress": "1300 SOUTH BRYAN ROAD",
+      "City": "MISSION",
+      "State": "TX",
+      "Zip": 78572
+    },
+    {
+      "StreetAddress": "6455 HILLTOP DR  SUITE 112",
+      "City": "NORTH RICHLAND HILLS",
+      "State": "TX",
+      "Zip": 76180
+    },
+    {
+      "StreetAddress": "1320 WEST OAKLAWN SUITE G & H",
+      "City": "PLEASANTON",
+      "State": "TX",
+      "Zip": 78064
+    },
+    {
+      "StreetAddress": "2787 PHARMACY RD",
+      "City": "RIO GRANDE CITY",
+      "State": "TX",
+      "Zip": 78582
+    },
+    {
+      "StreetAddress": "1515 PLEASANTON ROAD",
+      "City": "SAN ANTONIO",
+      "State": "TX",
+      "Zip": 78221
+    },
+    {
+      "StreetAddress": "2011 E. HOUSTON SUITE 102D",
+      "City": "SAN ANTONIO",
+      "State": "TX",
+      "Zip": 78202
+    },
+    {
+      "StreetAddress": "7171  HWY 90 WEST",
+      "City": "SAN ANTONIO",
+      "State": "TX",
+      "Zip": 78227
+    },
+    {
+      "StreetAddress": "7180 BANDERA ROAD",
+      "City": "SAN ANTONIO",
+      "State": "TX",
+      "Zip": 78238
+    },
+    {
+      "StreetAddress": "343 WEST HOUSTON STREET",
+      "City": "SAN ANTONIO",
+      "State": "TX",
+      "Zip": 78205
+    },
+    {
+      "StreetAddress": "11212 STATE HWY 151",
+      "City": "SAN ANTONIO",
+      "State": "TX",
+      "Zip": 78251
+    },
+    {
+      "StreetAddress": "295 NORTH SAM HOUSTON",
+      "City": "SAN BENITO",
+      "State": "TX",
+      "Zip": 78586
+    },
+    {
+      "StreetAddress": "5000 BAPTIST HEALTH DR",
+      "City": "SHERTZ",
+      "State": "TX",
+      "Zip": 78154
+    },
+    {
+      "StreetAddress": "504 SANTE FE",
+      "City": "WEATHERFORD",
+      "State": "TX",
+      "Zip": 76086
+    },
+    {
+      "StreetAddress": "1005 S. AIRPORT DRIVE",
+      "City": "WESLACO",
+      "State": "TX",
+      "Zip": 78596
+    },
+    {
+      "StreetAddress": "1704 SOUTH CHERRY LANE SUITE 200",
+      "City": "WHITE SETTLEMENT",
+      "State": "TX",
+      "Zip": 76108
+    },
+    {
+      "StreetAddress": "100 WEST HUNTINGTON",
+      "City": "BEEVILLE",
+      "State": "TX",
+      "Zip": 78102
+    },
+    {
+      "StreetAddress": "1612 NORTH TEXAS",
+      "City": "BRYAN",
+      "State": "TX",
+      "Zip": 77803
+    },
+    {
+      "StreetAddress": "7502 SOUTH PADRE ISLAND DRIVE",
+      "City": "CORPUS CHRISTI",
+      "State": "TX",
+      "Zip": 78412
+    },
+    {
+      "StreetAddress": "10737 GATEWAY W STE 100",
+      "City": "EL PASO",
+      "State": "TX",
+      "Zip": 79935
+    },
+    {
+      "StreetAddress": "3100 N. STANTON",
+      "City": "EL PASO",
+      "State": "TX",
+      "Zip": 79902
+    },
+    {
+      "StreetAddress": "802 GUADALUPE ST",
+      "City": "LAREDO",
+      "State": "TX",
+      "Zip": 78040
+    },
+    {
+      "StreetAddress": "4151 JAIME ZAPATA MEMORIAL HWY",
+      "City": "LAREDO",
+      "State": "TX",
+      "Zip": 78046
+    },
+    {
+      "StreetAddress": "5501 SPRINGFIELD AVENUE",
+      "City": "LAREDO",
+      "State": "TX",
+      "Zip": 78041
+    },
+    {
+      "StreetAddress": "10651 NORTH LOOP",
+      "City": "SOCORRO",
+      "State": "TX",
+      "Zip": 79927
+    },
+    {
+      "StreetAddress": "1138 S. BOWEN RD",
+      "City": "ARLINGTON",
+      "State": "TX",
+      "Zip": 76013
+    },
+    {
+      "StreetAddress": "1600 CENTRAL DR",
+      "City": "BEDFORD",
+      "State": "TX",
+      "Zip": 76022
+    },
+    {
+      "StreetAddress": "110 SOUTHPARK DRIVE",
+      "City": "BROWNWOOD",
+      "State": "TX",
+      "Zip": 76801
+    },
+    {
+      "StreetAddress": "3501 EXECUTIVE DR",
+      "City": "SAN ANGELO",
+      "State": "TX",
+      "Zip": 76904
+    },
+    {
+      "StreetAddress": "2755 LIBERTY",
+      "City": "BEAUMONT",
+      "State": "TX",
+      "Zip": 77702
+    },
+    {
+      "StreetAddress": "1301 S MARTIN LUTHER KING DR",
+      "City": "ORANGE",
+      "State": "TX",
+      "Zip": 77630
+    },
+    {
+      "StreetAddress": "6411 FANNIN ST",
+      "City": "HOUSTON",
+      "State": "TX",
+      "Zip": 77030
+    },
+    {
+      "StreetAddress": "1032 SANDY LANE",
+      "City": "FORT WORTH",
+      "State": "TX",
+      "Zip": 76120
+    },
+    {
+      "StreetAddress": "5601 LOCKE AVENUE",
+      "City": "FORT WORTH",
+      "State": "TX",
+      "Zip": 76107
+    },
+    {
+      "StreetAddress": "3965 PHELAN BLVD",
+      "City": "BEAUMONT",
+      "State": "TX",
+      "Zip": 77707
+    },
+    {
+      "StreetAddress": "3050 LIBERTY ST.",
+      "City": "BEAUMONT",
+      "State": "TX",
+      "Zip": 77702
+    },
+    {
+      "StreetAddress": "4240 INTERNATIONAL PARKWAY",
+      "City": "CARROLLTON",
+      "State": "TX",
+      "Zip": 75007
+    },
+    {
+      "StreetAddress": "6200 LBJ FREEWAY SUITE 100",
+      "City": "DALLAS",
+      "State": "TX",
+      "Zip": 75240
+    },
+    {
+      "StreetAddress": "4309 MESA DR",
+      "City": "DENTON",
+      "State": "TX",
+      "Zip": 76207
+    },
+    {
+      "StreetAddress": "251 UNIVERSITY DR",
+      "City": "FORT WORTH",
+      "State": "TX",
+      "Zip": 76107
+    },
+    {
+      "StreetAddress": "10850 FRISCO ST SUITE 300",
+      "City": "FRISCO",
+      "State": "TX",
+      "Zip": 75034
+    },
+    {
+      "StreetAddress": "1600 WATERS RIDGE DRIVE",
+      "City": "LEWISVILLE",
+      "State": "TX",
+      "Zip": 75057
+    },
+    {
+      "StreetAddress": "6331 BOULEVARD 26",
+      "City": "NORTH RICHLAND HILLS",
+      "State": "TX",
+      "Zip": 76180
+    },
+    {
+      "StreetAddress": "280 STRICKLAND DRIVE",
+      "City": "ORANGE",
+      "State": "TX",
+      "Zip": 77630
+    },
+    {
+      "StreetAddress": "4112 W SPRING CREEK PARKWAY",
+      "City": "PLANO",
+      "State": "TX",
+      "Zip": 75024
+    },
+    {
+      "StreetAddress": "3730 DRYDEN RD",
+      "City": "PORT ARTHUR",
+      "State": "TX",
+      "Zip": 77642
+    },
+    {
+      "StreetAddress": "8797 9TH AVENUE",
+      "City": "PORT ARTHUR",
+      "State": "TX",
+      "Zip": 77642
+    },
+    {
+      "StreetAddress": "510  S. SW LOOP 323",
+      "City": "TYLER",
+      "State": "TX",
+      "Zip": 75702
+    },
+    {
+      "StreetAddress": "2895 SHILOH ROAD",
+      "City": "TYLER",
+      "State": "TX",
+      "Zip": 75703
+    },
+    {
+      "StreetAddress": "7647 SOUTH FREEWAY",
+      "City": "HOUSTON",
+      "State": "TX",
+      "Zip": 77021
+    },
+    {
+      "StreetAddress": "8800 BISSONNET",
+      "City": "HOUSTON",
+      "State": "TX",
+      "Zip": 77074
+    },
+    {
+      "StreetAddress": "7112 STUEBNER AIRLINE DRIVE",
+      "City": "HOUSTON",
+      "State": "TX",
+      "Zip": 77091
+    },
+    {
+      "StreetAddress": "1201 ELLIS AVE",
+      "City": "LUFKIN",
+      "State": "TX",
+      "Zip": 75901
+    }
+  ]
+}

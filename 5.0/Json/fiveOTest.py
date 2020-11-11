@@ -2,6 +2,8 @@ import json
 import csv
 import requests as re
 from tqdm import *
+from itertools import chain, starmap
+import smasher
 
 
 def cleanNullTerms(d):
@@ -31,7 +33,8 @@ with open('postmandata.json', 'r') as jsonFile:
     inputData = json.load(jsonFile)
 # print(inputData)
 
-print("Requesting Data")
+print("Requesting and Processing Data")
+# for i in (range(len(inputData['inputData']))):
 for i in tqdm(range(len(inputData['inputData']))):
     payload = {
         'StreetAddress': inputData['inputData'][i]['StreetAddress'], 'City': inputData['inputData'][i]['City'],
@@ -45,13 +48,18 @@ for i in tqdm(range(len(inputData['inputData']))):
     }
     res = re.get(endpoint, params=payload)
     returnedObject = res.json()
+    hopeThisWorks = smasher.flatten_json_iterative_solution(returnedObject)
+    inputData['inputData'][i].update(hopeThisWorks)
     #inputData['inputData'][i]['latitude'] = returnedObject['data']['results'][0]['latitude']
     #inputData['inputData'][i]['longitude'] = returnedObject['data']['results'][0]['longitude']
     #inputData['inputData'][i]['featureMatchingGeographyType'] = returnedObject['data']['results'][0]['featureMatchingGeographyType']
     #inputData['inputData'][i]['gisCoordinateQualityType'] = returnedObject['data']['results'][0]['naaccr']['gisCoordinateQualityType']
+    # check two headers, make sure values
+    # all of them fields in parsedaddress, all the fields in results
     break
 
-with open('fiveodata.json', 'w') as f:
+print('writing file')
+with open('dummy.json', 'w') as f:
     json.dump(inputData, f, indent=2)
 '''with open('postman_100_noheader.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')

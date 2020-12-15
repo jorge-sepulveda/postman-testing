@@ -65,7 +65,7 @@ for i in tqdm(range(len(inputData['inputData']))):
     # all of them fields in parsedaddress, all the fields in results
 print(biglist)
 
-with open('wooooooo.csv', 'w') as csvfile:
+with open('finalOne.csv', 'w') as csvfile:
     writer = csv.writer(csvfile)
     for row in biglist:
         writer.writerow(row)

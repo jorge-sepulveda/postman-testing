@@ -72,7 +72,7 @@ def processData(dictRecived, version):
 
     with open(fileName, 'w') as f:
         json.dump(dictRecived['inputData'], f, indent=2, skipkeys=True)
-    return 1
+    return 0
 
 
 def regexReplace(dictIndex, fileName):
@@ -86,7 +86,7 @@ def regexReplace(dictIndex, fileName):
             "').to.equal(pm.iterationData.get('"+line+"'))"
         file.write(concatString+'\n')
     file.close()
-    return 1
+    return 0
 
 
 recievedData = fetchData(endpoints)

@@ -23,16 +23,16 @@ endpoints = {
     "3.01": "https://dev.geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V03_01.aspx"
 }
 
-oneEndpoint = {
+endpoint = {
     "5.0": "https://dev.geoservices.tamu.edu/Api/Geocode/V5/"
 }
 
 
-def fetchData(endpointList):
+def fetchData(endpointList, typeToGet):
     firstPass = True
     with open('postmandata.json', 'r') as jsonFile:
         inputData = json.load(jsonFile)
-    print("Fetching Data - CSV")
+    print("Fetching Data - " + typeToGet)
     for key in endpointList:
         print(key)
         tempDict = inputData
@@ -41,7 +41,7 @@ def fetchData(endpointList):
             payload = {
                 'StreetAddress': inputData['inputData'][i]['StreetAddress'], 'City': inputData['inputData'][i]['City'],
                 'State': inputData['inputData'][i]['State'], 'zip': inputData['inputData'][i]['Zip'],
-                'Version': key, 'format': 'csv', 'census': 'TRUE', 'censusyear': '199020002010',
+                'Version': key, 'typeToGet': typeToGet, 'census': 'TRUE', 'censusyear': '199020002010',
                 'apiKey': apiKey, 'allowTies': 'FALSE', 'tieBreakingStrategy': 'revertToHierarchy',
                 'geom': 'FALSE', 'ShouldDoExhaustiveSearch': 'FALSE', 'ConfidenceLevels': 7,
                 'MinScore': 70, 'UseAliasTable': 'FALSE', 'ShouldUseMultithreadedGeocoder': 'FALSE',
@@ -73,16 +73,16 @@ def fetchData(endpointList):
                 else:
                     print('Unexpected Error')
                     exit(0)
-        saveFile(biglist, key)
+        saveFile(biglist, key, typeToGet)
     return 0
     # check two headers, make sure values
     # all of them fields in parsedaddress, all the fields in results
 
 
-def saveFile(listToSave, version):
-    singleFilename = r'output/' + version + '-fields.txt'
-    testFilename = r'output/' + version + '-pm-tests.txt'
-    fileName = r'output/' + version + '-test-file.csv'
+def saveFile(listToSave, version, fileType):
+    singleFilename = r'output/' + fileType + '/' + version + '-fields.txt'
+    testFilename = r'output/' + fileType + '/' + version + '-pm-tests.txt'
+    fileName = r'output/' + fileType + '/' + version + '-test-file.csv'
     generateTestsCommands(listToSave[0], singleFilename, testFilename)
     with open(fileName, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
@@ -106,7 +106,7 @@ def generateTestsCommands(headers, fileName, testfile):
     return 0
 
 
-recievedData = fetchData(endpoints)
+recievedData = fetchData(endpoints, 'csv')
 
 
 '''

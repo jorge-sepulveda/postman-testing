@@ -15,5 +15,6 @@
         "titleBar.inactiveBackground": "#ffffff",
         "titleBar.inactiveForeground": "#00000099"
     },
-    "peacock.color": "#62baf3"
+    "peacock.color": "#62baf3",
+    "python.pythonPath": "C:\\Python39\\python.exe"
 }

@@ -52,10 +52,7 @@ def fetchData(endpointList, typeToGet):
             # print(decoded_content)
             cr = 0
             decoded_content = decoded_content.replace('\n', '')
-            if(typeToGet.lower() == 'tsv'):
-                cr = csv.reader(decoded_content.splitlines())
-            else:
-                cr = csv.reader(decoded_content.splitlines(), delimiter=',')
+            cr = csv.reader(decoded_content.splitlines())
             my_list = list(cr)
             firstRow = ['StreetAddress', 'City', 'State', 'Zip']
             secondRow = [inputData['inputData'][i]['StreetAddress'], inputData['inputData'][i]
@@ -101,7 +98,7 @@ def generateTestsCommands(headers, fileName, testfile):
     return 0
 
 
-recievedData = fetchData(endpoints, 'tsv')
+recievedData = fetchData(endpoints, 'csv')
 #recievedData = fetchData(endpoints, 'tsv')
 
 

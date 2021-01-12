@@ -14,13 +14,24 @@ geocodeFiveData = {"data": []}
 apiKey = '4eb436346c6b4c24a83478142a9a28b7'
 
 endpoints = {
-    "5.0": "https://geoservices.tamu.edu/Api/Geocode/V5/",
-    "4.05": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_05.aspx",
-    "4.04": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_04.aspx",
-    "4.03": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_03.aspx",
-    "4.02": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_02.aspx",
-    "4.01": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx",
-    "3.01": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V03_01.aspx"
+    #"5.0": "https://geoservices.tamu.edu/Api/Geocode/V5/",
+    #"4.05": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_05.aspx",
+    #"4.04": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_04.aspx",
+    #"4.03": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_03.aspx",
+    #"4.02": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_02.aspx",
+    #"4.01": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx",
+    "3.01": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V03_01.aspx",
+    "2.96" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_96.aspx",
+    "2.95" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_95.aspx",
+    "2.94" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_94.aspx",
+    "2.93" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_93.aspx",
+    "2.92" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_92.aspx",
+    "2.91" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_91.aspx",
+    "2.9" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_9.aspx",
+    "2.8" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_8.aspx",
+    "2.7" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_7.aspx",
+    "2.6" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_6.aspx",
+    "2.0" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02.aspx"
 }
 
 endpoint = {
@@ -98,12 +109,12 @@ def generateTestsCommands(headers, fileName, testfile):
     return 0
 
 
-recievedData = fetchData(endpoints, 'csv')
+recievedData = fetchData(endpoints, 'tsv')
 #recievedData = fetchData(endpoints, 'tsv')
 
 
 '''
-https://dev.geoservices.tamu.edu/Api/Geocode/V5/?StreetAddress=25 Summit Street
+https://geoservices.tamu.edu/Api/Geocode/V5/?StreetAddress=25 Summit Street
 &City=Newark&State=NJ&Zip=07103&Version=5.0.0.0&APIKey=4eb436346c6b4c24a83478142a9a28b7&Format=json
 &Census=TRUE&CensusYear=199020002010&allowTies=FALSE
 &tieBreakingStrategy=revertToHierarchy&geom=FALSE&ShouldDoExhaustiveSearch=FALSE

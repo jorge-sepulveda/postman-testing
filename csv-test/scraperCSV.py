@@ -7,6 +7,7 @@ import os
 import smasher
 import sys
 import re
+import payloads
 
 
 geocodeFiveData = {"data": []}
@@ -20,17 +21,17 @@ endpoints = {
     #"4.03": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_03.aspx",
     #"4.02": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_02.aspx",
     #"4.01": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx",
-    "3.01": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V03_01.aspx",
-    "2.96" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_96.aspx",
-    "2.95" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_95.aspx",
-    "2.94" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_94.aspx",
-    "2.93" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_93.aspx",
-    "2.92" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_92.aspx",
-    "2.91" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_91.aspx",
-    "2.9" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_9.aspx",
-    "2.8" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_8.aspx",
-    "2.7" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_7.aspx",
-    "2.6" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_6.aspx",
+    #"3.01": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V03_01.aspx",
+    #"2.96" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V02_96.aspx",
+    #"2.95" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V02_95.aspx",
+    #"2.94" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_94.aspx",
+    #"2.93" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_93.aspx",
+    #"2.92" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_92.aspx",
+    #"2.91" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_91.aspx",
+    #"2.9" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_9.aspx",
+    #"2.8" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_8.aspx",
+    #"2.7" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_7.aspx",
+    #"2.6" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_6.aspx",
     "2.0" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02.aspx"
 }
 
@@ -48,6 +49,8 @@ def fetchData(endpointList, typeToGet):
         print(key)
         # for i in tqdm(range(5)):
         for i in tqdm(range(len(inputData['inputData']))):
+            payload = payloads[key]
+            '''
             payload = {
                 'StreetAddress': inputData['inputData'][i]['StreetAddress'], 'City': inputData['inputData'][i]['City'],
                 'State': inputData['inputData'][i]['State'], 'zip': inputData['inputData'][i]['Zip'],
@@ -58,6 +61,7 @@ def fetchData(endpointList, typeToGet):
                 'refs': 'all', 'notstore': '', 'includeHeader': 'TRUE', 'Verbose': 'TRUE',
                 'r': 'true,false', 'ratts': 'pre,suffix,post,city,zip'
             }
+            '''
             res = req.get(endpointList[key], params=payload, timeout=20)
             decoded_content = res.content.decode('utf-8')
             # print(decoded_content)

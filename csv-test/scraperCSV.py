@@ -7,11 +7,12 @@ import os
 import smasher
 import sys
 import re
-import payloads
+# import payloads
 
 
 geocodeFiveData = {"data": []}
 
+#apiKey = '4eb436346c6b4c24a83478142a9a28b7'
 apiKey = '4eb436346c6b4c24a83478142a9a28b7'
 
 endpoints = {
@@ -20,7 +21,8 @@ endpoints = {
     #"4.04": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_04.aspx",
     #"4.03": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_03.aspx",
     #"4.02": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_02.aspx",
-    #"4.01": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx",
+    #"4.01": "https://live.geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx",
+    "4.01": "https://prod.geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx",
     #"3.01": "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V03_01.aspx",
     #"2.96" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V02_96.aspx",
     #"2.95" : "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V02_95.aspx",
@@ -32,7 +34,7 @@ endpoints = {
     #"2.8" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_8.aspx",
     #"2.7" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_7.aspx",
     #"2.6" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02_6.aspx",
-    "2.0" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02.aspx"
+    #"2.0" :  "https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebService_V02.aspx"
 }
 
 endpoint = {
@@ -49,8 +51,8 @@ def fetchData(endpointList, typeToGet):
         print(key)
         # for i in tqdm(range(5)):
         for i in tqdm(range(len(inputData['inputData']))):
-            payload = payloads[key]
-            '''
+            # payload = payloads[key]
+            
             payload = {
                 'StreetAddress': inputData['inputData'][i]['StreetAddress'], 'City': inputData['inputData'][i]['City'],
                 'State': inputData['inputData'][i]['State'], 'zip': inputData['inputData'][i]['Zip'],
@@ -61,7 +63,7 @@ def fetchData(endpointList, typeToGet):
                 'refs': 'all', 'notstore': '', 'includeHeader': 'TRUE', 'Verbose': 'TRUE',
                 'r': 'true,false', 'ratts': 'pre,suffix,post,city,zip'
             }
-            '''
+            
             res = req.get(endpointList[key], params=payload, timeout=20)
             decoded_content = res.content.decode('utf-8')
             # print(decoded_content)
@@ -87,9 +89,9 @@ def fetchData(endpointList, typeToGet):
 
 
 def saveFile(listToSave, version, fileType):
-    singleFilename = r'output/' + fileType + '/' + version + '-fields.txt'
-    testFilename = r'output/' + fileType + '/' + version + '-pm-tests.txt'
-    fileName = r'output/' + fileType + '/' + version + '-test-file.csv'
+    singleFilename = r'output/' + fileType + '/' + version + '-fields-prod.txt'
+    testFilename = r'output/' + fileType + '/' + version + '-pm-tests-prod.txt'
+    fileName = r'output/' + fileType + '/' + version + '-test-file-prod.csv'
     generateTestsCommands(listToSave[0], singleFilename, testFilename)
     with open(fileName, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
@@ -113,7 +115,7 @@ def generateTestsCommands(headers, fileName, testfile):
     return 0
 
 
-recievedData = fetchData(endpoints, 'tsv')
+recievedData = fetchData(endpoints, 'csv')
 #recievedData = fetchData(endpoints, 'tsv')
 
 

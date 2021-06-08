@@ -120,7 +120,7 @@ def generateTestsCommands(headers, fileName, testfile):
     file.close()
     file = open(testfile, 'w', encoding='utf8')
     for item in headers:
-        funcLine = 'pm.test("' + item + '", function () {\n'
+        funcLine = 'pm.test(pm.iterationData.get("id"): + "' + item + '", function () {\n'
         parseLine = '\tparsedBody.forEach(function (row) {\n'
         pmLine = "\t\tpm.expect(row[" + item + \
             "]).to.equal(pm.iterationData.get('" + item + "'));\n"

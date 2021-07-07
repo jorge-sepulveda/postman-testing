@@ -27,13 +27,13 @@ endpoints = {
 }
 
 oneEndpoint = {
-    "5.0": "https://dev.geoservices.tamu.edu/Api/Geocode/V5/"
+    "5.0": "https://prod.geoservices.tamu.edu/Api/Geocode/V5/"
 }
 
 
 def fetchData(endpointList):
 
-    with open('postmandata.json', 'r') as jsonFile:
+    with open(r'../address-sample/sample.json', 'r') as jsonFile:
         inputData = json.load(jsonFile)
 
     print("Fetching Data - JSON")

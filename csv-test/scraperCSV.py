@@ -76,7 +76,12 @@ def fetchData(endpointList, format, suffix):
                 'apiKey': apiKey,'refs': 'all', 'notStore': 'false', 'includeHeader': 'TRUE', 'Verbose': 'TRUE'
             }'''
             
-            res = req.get(endpointList[key], params=payload, timeout=60) 
+            while True:
+                try:
+                    res = requests.get(endpointList[key], params=payload, timeout=180)
+                except Exception:
+                    continue
+                break
             decoded_content = res.content.decode('utf-8')
             #print(decoded_content)
             cr = 0
@@ -131,7 +136,7 @@ def generateTestsCommands(headers, fileName, testfile):
 
 
 recievedData = fetchData(liveEndpoints, 'csv', 'live') 
-#recievedData = fetchData(prodEndpoints, 'csv', 'prod')
+recievedData = fetchData(prodEndpoints, 'csv', 'prod')
 #recievedData = fetchData(endpoints, 'tsv')
 
 

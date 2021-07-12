@@ -51,8 +51,16 @@ def fetchData(endpointList):
                 'refs': 'all', 'notstore': '', 'includeHeader': 'FALSE', 'Verbose': 'TRUE',
                 'r': 'true,false', 'ratts': 'pre,suffix,post,city,zip'
             }
-            res = requests.get(endpointList[key], params=payload, timeout=45)
+            res = ''
+            while True:
+                try:
+                    res = requests.get(endpointList[key], params=payload, timeout=180)
+                except Exception as e:
+                    continue
+                    print(e)
+                break
             decoded_content = res.content.decode('utf-8')
+            print (res.json())
             returnedObject = res.json()
             flattenedKeys = smasher.flatten_json_iterative_solution(
                 returnedObject)
@@ -83,11 +91,15 @@ def regexReplace(dictIndex, fileName):
         result = re.sub(r"([A-Za-z]+[0-9]?)", r"['\1']", line)
         finalResult = re.sub(r"(?<![a-zA-Z])([0-9]+)", r"[\1]", result)
         finalResult = finalResult.replace('_', '')
-        concatString = "pm.expect(res'" + finalResult + \
-            "').to.equal(pm.iterationData.get('"+line+"'))"
-        file.write(concatString+'\n')
+        #concatString = "pm.expect(res'" + finalResult + \
+        #    "').to.equal(pm.iterationData.get('"+line+"'))"
+        funcLine = 'pm.test(pm.iterationData.get("id"): + "' + line + '", function () {\n'   
+        pmLine = "\tpm.expect(res" + finalResult + \
+            "').to.equal(pm.iterationData.get('" + line + "));\n"
+        file.write(funcLine + pmLine + '});\n')
+        #file.write(concatString+'\n')
     file.close()
     return 0
 
 
-recievedData = fetchData(endpoints)
+recievedData = fetchData(oneEndpoint)

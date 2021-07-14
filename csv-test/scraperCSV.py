@@ -78,7 +78,7 @@ def fetchData(endpointList, format, suffix):
             
             while True:
                 try:
-                    res = requests.get(endpointList[key], params=payload, timeout=180)
+                    res = req.get(endpointList[key], params=payload, timeout=180)
                 except Exception:
                     continue
                 break

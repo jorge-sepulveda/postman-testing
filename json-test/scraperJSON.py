@@ -1,6 +1,6 @@
 import json
 import csv
-import requests as requests
+import requests as req
 from tqdm import *
 from itertools import chain, starmap
 import os
@@ -51,16 +51,15 @@ def fetchData(endpointList):
                 'refs': 'all', 'notstore': '', 'includeHeader': 'FALSE', 'Verbose': 'TRUE',
                 'r': 'true,false', 'ratts': 'pre,suffix,post,city,zip'
             }
-            res = ''
             while True:
                 try:
-                    res = requests.get(endpointList[key], params=payload, timeout=180)
+                    res = req.get(endpointList[key], params=payload, timeout=180)
                 except Exception as e:
                     continue
                     print(e)
                 break
             decoded_content = res.content.decode('utf-8')
-            print (res.json())
+            print(decoded_content)
             returnedObject = res.json()
             flattenedKeys = smasher.flatten_json_iterative_solution(
                 returnedObject)

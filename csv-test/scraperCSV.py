@@ -41,22 +41,20 @@ liveEndpoints = {
 }
 
 endpoint = {
-    "5.0": "https://dev.geoservices.tamu.edu/Api/Geocode/V5/"
+    "5.0": "https://prod.geoservices.tamu.edu/Api/Geocode/V5/"
 }
 
 # end global variables
 
 def fetchData(endpointList, format, suffix):
     firstPass = True
-    with open(r'../address-sample/sample.json', 'r', encoding='utf-8') as jsonFile:
+    with open(r'address-sample/sample.json', 'r', encoding='utf-8') as jsonFile:
         inputData = json.load(jsonFile)
     print("Fetching Data - " + format.upper())
     for key in endpointList:
         print(key)
-        # for i in tqdm(range(5)):
+        #for i in tqdm(range(5)):
         for i in tqdm(range(len(inputData['inputData']))):
-            # payload = payloads[key]
-            #print(inputData['inputData'][i]['StreetAddress'])
             payload = {
                 'StreetAddress': inputData['inputData'][i]['StreetAddress'], 'City': inputData['inputData'][i]['City'],
                 'State': inputData['inputData'][i]['State'], 'zip': inputData['inputData'][i]['Zip'],
@@ -89,7 +87,7 @@ def fetchData(endpointList, format, suffix):
             cr = csv.reader(decoded_content.splitlines())
             my_list = list(cr)
             firstRow = ['id','StreetAddress', 'City', 'State', 'Zip']
-            secondRow = [i+1,inputData['inputData'][i]['StreetAddress'], inputData['inputData'][i]
+            secondRow = [inputData['inputData'][i]['id'],inputData['inputData'][i]['StreetAddress'], inputData['inputData'][i]
                          ['City'], inputData['inputData'][i]['State'], inputData['inputData'][i]['Zip']]
             if firstPass:
                 my_list[0] = firstRow + my_list[0]
@@ -106,9 +104,9 @@ def fetchData(endpointList, format, suffix):
 
 
 def saveFile(listToSave, version, fileType, end):
-    singleFilename = r'output/' + fileType + '/' + version + '-fields-' + end + '.txt'
-    testFilename = r'output/' + fileType + '/' + version + '-pm-tests-' + end + '.txt'
-    fileName = r'output/' + fileType + '/' + version + '-test-file-' + end + '.csv'
+    singleFilename = r'csv-test/output/' + fileType + '/' + version + '-fields-' + end + '.txt'
+    testFilename = r'csv-test/output/' + fileType + '/' + version + '-pm-tests-' + end + '.txt'
+    fileName = r'csv-test/output/' + fileType + '/' + version + '-test-file-' + end + '.csv'
     generateTestsCommands(listToSave[0], singleFilename, testFilename)
     with open(fileName, 'w', newline='',encoding='utf8') as csvfile:
         writer = csv.writer(csvfile)
@@ -118,6 +116,7 @@ def saveFile(listToSave, version, fileType, end):
 
 
 def generateTestsCommands(headers, fileName, testfile):
+    print(fileName)
     file = open(fileName, 'w', encoding='utf8')
     for item in headers:
         testString = item + " = head.indexOf('" + item + "'),"
@@ -135,8 +134,8 @@ def generateTestsCommands(headers, fileName, testfile):
     return 0
 
 
-recievedData = fetchData(liveEndpoints, 'csv', 'live') 
-recievedData = fetchData(prodEndpoints, 'csv', 'prod')
+#recievedData = fetchData(liveEndpoints, 'csv', 'live') 
+recievedData = fetchData(endpoint, 'csv', 'prod')
 #recievedData = fetchData(endpoints, 'tsv')
 
 

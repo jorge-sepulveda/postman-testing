@@ -31,9 +31,9 @@ oneEndpoint = {
 }
 
 
-def fetchData(endpointList):
+def fetchData(endpointList, server):
 
-    with open(r'../address-sample/sample.json', 'r') as jsonFile:
+    with open(r'address-sample/sample.json', 'r') as jsonFile:
         inputData = json.load(jsonFile)
 
     print("Fetching Data - JSON")
@@ -48,7 +48,7 @@ def fetchData(endpointList):
                 'apiKey': apiKey, 'allowTies': 'FALSE', 'tieBreakingStrategy': 'revertToHierarchy',
                 'geom': 'FALSE', 'ShouldDoExhaustiveSearch': 'FALSE', 'ConfidenceLevels': 7,
                 'MinScore': 70, 'UseAliasTable': 'FALSE', 'ShouldUseMultithreadedGeocoder': 'FALSE',
-                'refs': 'all', 'notstore': '', 'includeHeader': 'FALSE', 'Verbose': 'TRUE',
+                'refs': 'all', 'notstore': 'TRUE', 'includeHeader': 'FALSE', 'Verbose': 'TRUE',
                 'r': 'true,false', 'ratts': 'pre,suffix,post,city,zip'
             }
             while True:
@@ -59,21 +59,21 @@ def fetchData(endpointList):
                     print(e)
                 break
             decoded_content = res.content.decode('utf-8')
-            print(decoded_content)
+            #print(decoded_content)
             returnedObject = res.json()
             flattenedKeys = smasher.flatten_json_iterative_solution(
                 returnedObject)
             tempDict['inputData'][i].update(flattenedKeys)
             # print(inputData['inputData'][i])
-        processData(tempDict, key)
+        processData(tempDict, key, server)
     # check two headers, make sure values
     # all of them fields in parsedaddress, all the fields in results
 
 
-def processData(dictRecived, version):
+def processData(dictRecived, version, server):
     # don't print anything here.
-    singleFilename = r'output/' + version + '-fields.txt'
-    fileName = r'output/' + version + '-test-file.json'
+    singleFilename = r'json-test/output/' + version + '-fields.txt'
+    fileName = r'json-test/output/' + version + '-test-file-' + server + '.json'
     # dictionary = {version: dictRecived['inputData']}
     # entire file
     regexReplace(dictRecived['inputData'][0], singleFilename)
@@ -92,13 +92,13 @@ def regexReplace(dictIndex, fileName):
         finalResult = finalResult.replace('_', '')
         #concatString = "pm.expect(res'" + finalResult + \
         #    "').to.equal(pm.iterationData.get('"+line+"'))"
-        funcLine = 'pm.test(pm.iterationData.get("id"): + "' + line + '", function () {\n'   
+        funcLine = 'pm.test(pm.iterationData.get("id") + ": ' + line + '", function () {\n'   
         pmLine = "\tpm.expect(res" + finalResult + \
-            "').to.equal(pm.iterationData.get('" + line + "));\n"
+            ").to.equal(pm.iterationData.get('" + line + "'));\n"
         file.write(funcLine + pmLine + '});\n')
         #file.write(concatString+'\n')
     file.close()
     return 0
 
 
-recievedData = fetchData(oneEndpoint)
+recievedData = fetchData(oneEndpoint, "prod")

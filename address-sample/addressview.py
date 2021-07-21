@@ -8,12 +8,14 @@ df = pd.read_csv('sampled_uniqueAddress_1samples_new_random_error.csv', na_filte
 #print(df)
 # Show 
 completeStreetAddr = pd.DataFrame()
+
 completeStreetAddr['StreetAddress'] = df['AddressRange'] + ' ' + df['PreDirection'] + ' ' + df['BaseStreetName'] + ' ' + df['PostDirection'] + ' ' + df['RoadType']
 completeStreetAddr['City'] = df['City']
 completeStreetAddr['State'] = df['State']
 completeStreetAddr['Zip'] = df['Zip']
 
 randomSample = completeStreetAddr.sample(n=100)
+randomSample['id'] = range(1, 1+len(randomSample))
 result = {"inputData":[]}
 records = randomSample.to_json(orient="records")
 

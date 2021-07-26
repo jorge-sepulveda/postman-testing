@@ -13,7 +13,7 @@ geocodeFiveData = {"data": []}
 
 apiKey = '4eb436346c6b4c24a83478142a9a28b7'
 
-# endpoint = 'https://dev.geoservices.tamu.edu/Api/Geocode/V5/'
+# endpoint = 'https://prod.geoservices.tamu.edu/Api/Geocode/V5/'
 endpoint = 'https://dev.geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx'
 
 endpoints = {

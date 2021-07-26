@@ -1,26 +1,15 @@
 payloads = {
-    "2.0" : {
-        'StreetAddress': inputData['inputData'][i]['StreetAddress'], 'City': inputData['inputData'][i]['City'],
-        'State': inputData['inputData'][i]['State'], 'zip': inputData['inputData'][i]['Zip'],
+    #you have to include addresses, format and api key from the main script.
+    "5.0" : {
         'version': key,  'format': typeToGet,
         'apiKey': apiKey,'Verbose': 'true',
     },
-    "2.6" : {
-        'StreetAddress': inputData['inputData'][i]['StreetAddress'], 'City': inputData['inputData'][i]['City'],
-        'State': inputData['inputData'][i]['State'], 'zip': inputData['inputData'][i]['Zip'],
-        'version': key,  'format': typeToGet,
-        'apiKey': apiKey,'Verbose': 'true',
-    },
-    "2.7" : {
-        'StreetAddress': inputData['inputData'][i]['StreetAddress'], 'City': inputData['inputData'][i]['City'],
-        'State': inputData['inputData'][i]['State'], 'zip': inputData['inputData'][i]['Zip'],
-        'version': key,  'format': typeToGet,
-        'apiKey': apiKey,'Verbose': 'true',
-    },
-    "2.8" : {
-        'StreetAddress': inputData['inputData'][i]['StreetAddress'], 'City': inputData['inputData'][i]['City'],
-        'State': inputData['inputData'][i]['State'], 'zip': inputData['inputData'][i]['Zip'],
-        'version': key,  'format': typeToGet, "notStore" : 'true',
-        'apiKey': apiKey,'Verbose': 'true',
+    "4.01" : {
+        'Version': "4.01",'census': 'TRUE', 'censusyear': '199020002010',
+        'allowTies': 'FALSE', 'tieBreakingStrategy': 'revertToHierarchy',
+        'geom': 'FALSE', 'ShouldDoExhaustiveSearch': 'FALSE', 'ConfidenceLevels': 7,
+        'MinScore': 70, 'UseAliasTable': 'FALSE', 'ShouldUseMultithreadedGeocoder': 'FALSE',
+        'refs': 'all', 'notstore': 'true', 'includeHeader': 'TRUE', 'Verbose': 'TRUE',
+        'r': 'true,false', 'ratts': 'pre,suffix,post,city,zip'
     }
 }

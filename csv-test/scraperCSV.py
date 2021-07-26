@@ -15,7 +15,8 @@ geocodeFiveData = {"data": []}
 apiKey = '4eb436346c6b4c24a83478142a9a28b7'
 
 prodEndpoints = {
-    "4.01": "https://prod.geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx"
+    "4.01": "https://prod.geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx",
+    "5.0": "https://prod.geoservices.tamu.edu/Api/Geocode/V5/"
 }
 
 liveEndpoints = {
@@ -82,7 +83,6 @@ def fetchData(endpointList, format, suffix):
                 break
             decoded_content = res.content.decode('utf-8')
             #print(decoded_content)
-            cr = 0
             decoded_content = decoded_content.replace('\n', '')
             cr = csv.reader(decoded_content.splitlines())
             my_list = list(cr)
@@ -124,7 +124,7 @@ def generateTestsCommands(headers, fileName, testfile):
     file.close()
     file = open(testfile, 'w', encoding='utf8')
     for item in headers:
-        funcLine = 'pm.test(pm.iterationData.get("id"): + "' + item + '", function () {\n'
+        funcLine = 'pm.test(pm.iterationData.get("id") + ":' + item + '", function () {\n'
         parseLine = '\tparsedBody.forEach(function (row) {\n'
         pmLine = "\t\tpm.expect(row[" + item + \
             "]).to.equal(pm.iterationData.get('" + item + "'));\n"
@@ -135,7 +135,7 @@ def generateTestsCommands(headers, fileName, testfile):
 
 
 #recievedData = fetchData(liveEndpoints, 'csv', 'live') 
-recievedData = fetchData(endpoint, 'csv', 'prod')
+recievedData = fetchData(prodEndpoints, 'csv', 'prod')
 #recievedData = fetchData(endpoints, 'tsv')
 
 
